@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/jackc/pgtype"
-	"github.com/jackc/pgtype/testutil"
+	"github.com/getoutreach/pgtype"
+	"github.com/getoutreach/pgtype/testutil"
 )
 
 func TestTIDTranscode(t *testing.T) {
@@ -60,4 +60,3 @@ func TestTIDAssignTo(t *testing.T) {
 		}
 	}
 }
-

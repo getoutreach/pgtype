@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
+	"github.com/getoutreach/pgtype"
 	"github.com/jackc/pgconn"
-	"github.com/jackc/pgtype"
 	"github.com/jackc/pgx/v4"
 )
 

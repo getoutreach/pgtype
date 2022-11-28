@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/getoutreach/pgtype"
 	"github.com/gofrs/uuid"
-	"github.com/jackc/pgtype"
 )
 
 var errUndefined = errors.New("cannot encode status undefined")

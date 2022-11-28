@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/jackc/pgtype"
+	"github.com/getoutreach/pgtype"
 	pgx "github.com/jackc/pgx/v4"
 )
 

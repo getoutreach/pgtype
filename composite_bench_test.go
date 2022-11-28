@@ -3,8 +3,8 @@ package pgtype_test
 import (
 	"testing"
 
+	"github.com/getoutreach/pgtype"
 	"github.com/jackc/pgio"
-	"github.com/jackc/pgtype"
 	"github.com/stretchr/testify/require"
 )
 

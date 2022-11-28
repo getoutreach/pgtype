@@ -3,8 +3,8 @@ package zeronull_test
 import (
 	"testing"
 
-	"github.com/jackc/pgtype/testutil"
-	"github.com/jackc/pgtype/zeronull"
+	"github.com/getoutreach/pgtype/testutil"
+	"github.com/getoutreach/pgtype/zeronull"
 )
 
 func TestFloat8Transcode(t *testing.T) {

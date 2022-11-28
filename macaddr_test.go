@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/jackc/pgtype"
-	"github.com/jackc/pgtype/testutil"
+	"github.com/getoutreach/pgtype"
+	"github.com/getoutreach/pgtype/testutil"
 )
 
 func TestMacaddrTranscode(t *testing.T) {
